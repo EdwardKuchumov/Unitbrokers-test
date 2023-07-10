@@ -92,12 +92,20 @@ h6 {
 body {
   font-family: "Inter";
   background-color: #707070;
-  text-transform: capitalize;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.5;
 }
 
 .cont {
   max-width: 1394px;
   margin: 0 auto;
+  padding: 0 5px;
 }
 
 .all-button {
@@ -224,6 +232,7 @@ h2 {
 .benefits__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 275px 275px;
   grid-template-areas: "f c s" "t c m";
   background-color: #fff;
 }
@@ -231,30 +240,42 @@ h2 {
   padding-top: 54px;
   padding-left: 32px;
   grid-area: f;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #D8D8D8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .benefits__count {
   padding-top: 54px;
   padding-left: 32px;
   grid-area: c;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
+  border-left: 1px solid #D8D8D8;
+  border-right: 1px solid #D8D8D8;
 }
 .benefits__security {
   padding-top: 54px;
   padding-left: 32px;
   grid-area: s;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #D8D8D8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .benefits__tools {
   padding-top: 54px;
   padding-left: 32px;
   grid-area: t;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .benefits__multilang {
   padding-top: 54px;
   padding-left: 32px;
   grid-area: m;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h3 {
@@ -276,19 +297,28 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+  padding-top: 10px;
 }
 .benefits__img {
   display: flex;
   position: relative;
+  padding-bottom: 34px;
 }
 
 .count__img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 200%;
+  left: 50%;
   z-index: 2;
 }
 .count__background {
   position: absolute;
   top: 0;
   right: 10%;
+}
+.count__svg {
+  padding-top: 41px;
 }
 
 .platform-market {
@@ -345,6 +375,9 @@ h3 {
   align-items: center;
 }
 .questions__text {
+  transition: all 1s;
+  overflow: hidden;
+  height: 0px;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -352,6 +385,11 @@ h3 {
 }
 .questions__text span {
   font-weight: 700;
+}
+
+.hide-text {
+  height: 100px;
+  transition: all 1s;
 }
 
 .footer {

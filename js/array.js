@@ -5,29 +5,29 @@ const langArr = {
         'en': 'Log in'
     },
     'comLg': {
-        'ru': 'торговля',
-        'en': 'commerce'
+        'ru': 'Торговля',
+        'en': 'Commerce'
     },
     'marketsLg': {
-        'ru': 'рынки',
-        'en': 'markets'
+        'ru': 'Рынки',
+        'en': 'Markets'
     },
     'сustomersLg': {
-        'ru': 'клиентам',
-        'en': 'сustomers'
+        'ru': 'Клиентам',
+        'en': 'Customers'
     },
     'aboutLg': {
-        'ru': 'о нас',
-        'en': 'about us'
+        'ru': 'О нас',
+        'en': 'About us'
     },
     // first block
     'titLg':{
-        'ru': 'криптовалютный рынок',
-        'en': 'cryptocurrency market'
+        'ru': 'Криптовалютный рынок',
+        'en': 'Cryptocurrency market'
     },
     'tradeLg':{
-        'ru': 'торгуйте криптовалютами на мировом финансовом рынке на конкурентоспособных условиях.',
-        'en': 'trade cryptocurrencies on the global financial market on competitive terms.'
+        'ru': 'Торгуйте криптовалютами на мировом финансовом рынке на <br> конкурентоспособных условиях.',
+        'en': 'Trade cryptocurrencies on the global financial market on competitive terms.'
     },
     'buttonLg':{
         'ru': 'Открыть счет',
@@ -39,11 +39,11 @@ const langArr = {
         'en': 'Advantages of trading with United Brokers'
     },
     'ultraFastLg':{
-        'ru': 'Сверхбыстрое исполнение и высокая ликвидность',
+        'ru': 'Сверхбыстрое исполнение<br> и высокая ликвидность',
         'en': 'Ultra-fast execution and high liquidity'
     },
     'textUltraFastLg':{
-        'ru': '99,9% ордеров исполняются менее чем за 11.06 мс',
+        'ru': '99,9% ордеров исполняются<br> менее чем за 11.06 мс',
         'en': '99.9% of orders are executed in less than 11.06 ms'
     },
     'typeCountLg':{
@@ -51,7 +51,7 @@ const langArr = {
         'en': 'Types of accounts'
     },
     'abilityTradeLg':{
-        'ru': 'Возможность торговатьMini, Standard, Classic и ProInvest счетами с одного устройства  ',
+        'ru': 'Возможность торговать <br>Mini, Standard, Classic и ProInvest счетами <br> с одного устройства  ',
         'en': 'Ability to trade Mini, Standard, Classic and ProInvest accounts From One Device'
     },
     'globalStandartLg':{
@@ -59,7 +59,7 @@ const langArr = {
         'en': 'Global safety standards'
     },
     'choseLg':{
-        'ru': 'Выбирайте надежного брокера, который работает с клиентами более чем в 83 странах мира',
+        'ru': 'Выбирайте надежного брокера, который <br>работает с клиентами более чем в 83 <br>странах мира',
         'en': 'Choose a reliable broker that works with clients in more than 83 countries'
     },
     'toolsLg':{
@@ -67,7 +67,7 @@ const langArr = {
         'en': '150+ tools'
     },
     'forexLg':{
-        'ru': 'Forex, акции, фьючерсы, индексы, металлы и энергоресурсы',
+        'ru': 'Forex, акции, фьючерсы, индексы, <br> металлы и энергоресурсы',
         'en': 'Forex, stocks, futures, indices, metals and energy'
     },
     'multiLangLg':{
@@ -75,7 +75,7 @@ const langArr = {
         'en': 'Multilingual support 24/5'
     },
     'feelLg':{
-        'ru': 'Почувствуйте себя уверенно, зная,что наша служба поддержки доступна для вас в любое время дня и ночи, с понедельника по пятницу',
+        'ru': 'Почувствуйте себя уверенно, зная, <br> что наша служба поддержки доступна <br> для вас в любое время дня и ночи, <br> с понедельника по пятницу',
         'en': 'Feel confident, knowing,that our support team is available for you at any time of the day or night, Monday through Friday'
     },
     // three block
@@ -88,7 +88,7 @@ const langArr = {
         'en': 'Read more'
     },
     'takeLg':{
-        'ru': 'Переходите на новый уровень трейдинга с профессионально оснащенной платформой «United Brokers». Доступны версии для ПК, веб и смартфонов.',
+        'ru': 'Переходите на новый уровень трейдинга с профессионально оснащенной платформой «United <br> Brokers». Доступны версии для ПК, веб и смартфонов.',
         'en': 'Take your trading to the next level with the professionally equipped United Brokers platform. Available in PC, web and smartphone versions.'
     },
     // four block
@@ -130,16 +130,16 @@ const langArr = {
         'en': 'Trade'
     },
     'platformFooter':{
-        'ru': 'Платформы',
-        'en': 'Platforms'
+        'ru': '<a href="#">Платформы</a>',
+        'en': '<a href="#">Platforms</a>'
     },
     'typeFooter':{
-        'ru': 'Типы счетов',
-        'en': 'Types of accounts'
+        'ru': '<a href="#">Типы счетов</a>',
+        'en': '<a href="#">Types of accounts</a>'
     },
     'termsFooter':{
-        'ru': 'Условия торговли',
-        'en': 'Terms of trade'
+        'ru': '<a href="#">Условия торговли</a>',
+        'en': '<a href="#">Terms of trade</a>'
     },
     // markets
     'marketsFooter':{
@@ -147,24 +147,24 @@ const langArr = {
         'en': 'Markets'
     },
     'currencyFooter':{
-        'ru': 'Валютный рынок',
-        'en': 'Currency market'
+        'ru': '<a href="#">Валютный рынок</a>',
+        'en': '<a href="#">Currency market</a>'
     },
     'stockFooter':{
-        'ru': 'Фондовый рынок',
-        'en': 'Stock market'
+        'ru': '<a href="#">Фондовый рынок</a>',
+        'en': '<a href="#">Stock market</a>'
     },
     'commodityFooter':{
-        'ru': 'Товарный рынок',
-        'en': 'Commodity market'
+        'ru': '<a href="#">Товарный рынок</a>',
+        'en': '<a href="#">Commodity market</a>'
     },
     'indexFooter':{
-        'ru': 'Индексы',
-        'en': 'Indexes'
+        'ru': '<a href="#">Индексы</a>',
+        'en': '<a href="#">Indexes</a>'
     },
     'cryptoFooter':{
-        'ru': 'Криптовалюты',
-        'en': 'Cryptocurrencies'
+        'ru': '<a href="#">Криптовалюты</a>',
+        'en': '<a href="#">Cryptocurrencies</a>'
     },
     // customers
     'customFooter':{
@@ -172,24 +172,24 @@ const langArr = {
         'en': 'Customers'
     },
     'analyticsFooter':{
-        'ru': 'Аналитика',
-        'en': 'Analytics'
+        'ru': '<a href="#">Аналитика</a>',
+        'en': '<a href="#">Analytics</a>'
     },
     'newsFooter':{
-        'ru': 'Новости',
-        'en': 'News'
+        'ru': '<a href="#">Новости</a>',
+        'en': '<a href="#">News</a>'
     },
     'trainingFooter':{
-        'ru': 'Обучение',
-        'en': 'Training'
+        'ru': '<a href="#">Обучение</a>',
+        'en': '<a href="#">Training</a>'
     },
     'tipsFooter':{
-        'ru': 'Советы трейдерам',
-        'en': 'Tips for traders'
+        'ru': '<a href="#">Советы трейдерам</a>',
+        'en': '<a href="#">Tips for traders</a>'
     },
     'loyaltyFooter':{
-        'ru': 'Программа лояльности',
-        'en': 'Loyalty Program'
+        'ru': '<a href="#">Программа лояльности</a>',
+        'en': '<a href="#">Loyalty Program</a>'
     },
     // about
     'aboutFooter':{
@@ -197,24 +197,24 @@ const langArr = {
         'en': 'About Us'
     },
     'companyFooter':{
-        'ru': 'О компаниии',
-        'en': 'About company'
+        'ru': '<a href="#">О компаниии</a>',
+        'en': '<a href="#">About company</a>'
     },
     'contactFooter':{
-        'ru': 'Контакты',
-        'en': 'Contact'
+        'ru': '<a href="#">Контакты</a>',
+        'en': '<a href="#">Contact</a>'
     },
     'documentFooter':{
-        'ru': 'Документы',
-        'en': 'Documents'
+        'ru': '<a href="#">Документы</a>',
+        'en': '<a href="#">Documents</a>'
     },
     'securityFooter':{
-        'ru': 'Сохранность средств',
-        'en': 'Security of funds'
+        'ru': '<a href="#">Сохранность средств</a>',
+        'en': '<a href="#">Security of funds</a>'
     },
     'vacanciesFooter':{
-        'ru': 'Вакансии',
-        'en': 'Vacancies'
+        'ru': '<a href="#">Вакансии</a>',
+        'en': '<a href="#">Vacancies</a>'
     },
     // document
     'docFooter':{
@@ -222,24 +222,24 @@ const langArr = {
         'en': 'Documents'
     },
     'customerFooter':{
-        'ru': 'Клиентское соглашение',
-        'en': 'Customer Agreement'
+        'ru': '<a href="#">Клиентское соглашение</a>',
+        'en': '<a href="#">Customer Agreement</a>'
     },
     'privateFooter':{
-        'ru': 'Политика конфиденциальности',
-        'en': 'Privacy Policy'
+        'ru': '<a href="#">Политика конфиденциальности</a>',
+        'en': '<a href="#">Privacy Policy</a>'
     },
     'refoundFooter':{
-        'ru': 'Политика возврата платежей',
-        'en': 'Refund policy'
+        'ru': '<a href="#">Политика возврата платежей</a>',
+        'en': '<a href="#">Refund policy</a>'
     },
     'certificateFooter':{
-        'ru': 'Свидетельство о регистрации',
-        'en': 'Certificate of registration'
+        'ru': '<a href="#">Свидетельство о регистрации</a>',
+        'en': '<a href="#">Certificate of registration</a>'
     },
     'amlFooter':{
-        'ru': 'Политика AML',
-        'en': 'AML Policy'
+        'ru': '<a href="#">Политика AML</a>',
+        'en': '<a href="#">AML Policy</a>'
     },
     // policy
     'policyUKFooter':{

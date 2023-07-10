@@ -2,8 +2,8 @@
 const questBlock = document.querySelectorAll('.questions__titleBlock');
 questBlock.forEach((item)=>{
     item.addEventListener('click', ()=>{
-        item.nextElementSibling.classList.toggle('hidden')
-        if(item.nextElementSibling.classList.contains('hidden')){
+        item.nextElementSibling.classList.toggle('hide-text')
+        if(!item.nextElementSibling.classList.contains('hide-text')){
             item.querySelector('.plus').style.backgroundColor = '#A0A0A0'
         } else{
             item.querySelector('.plus').style.backgroundColor = '#f4f4f4'
