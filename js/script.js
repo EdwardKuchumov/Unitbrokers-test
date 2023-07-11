@@ -1,3 +1,8 @@
+var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
 // accordion
 const questBlock = document.querySelectorAll('.questions__titleBlock');
 questBlock.forEach((item)=>{
